@@ -14,6 +14,7 @@ ENV MKDOCS_VERSION=1.1.2 \
 ADD container-files/ /
 
 RUN \
+    sed -i -e 's/v[[:digit:]]\..*\//edge\//g' /etc/apk/repositories
     apk add --update \
     ca-certificates \
     bash \
