@@ -17,7 +17,7 @@ RUN \
     apk add --update \
     ca-certificates \
     bash \
-    git \
+    git=2.29.1-r0 \
     openssh \
     python3 \
     python3-dev \
