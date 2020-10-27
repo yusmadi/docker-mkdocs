@@ -18,7 +18,7 @@ RUN \
     ca-certificates \
     bash \
     sed \
-    git=2.29.1-r0 \
+    git \
     openssh \
     python3 \
     python3-dev \
